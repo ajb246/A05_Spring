@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Season Speakers</title>
+</head>
+<body>
+
+<main>
+    <!-- Step 1: Adding the main content with h1 and h2 tags -->
+    <h1>This Season's Guest Speakers</h1>
+
+    <h2>Our Mission</h2>
+    <!-- Step 2: Adding <p> and <blockquote> tags for content -->
+    <p>
+        Our mission is to inspire and inform our audience through expert talks and discussions.
+    </p>
+    <blockquote>
+        We believe in the power of knowledge and its ability to transform lives.
+    </blockquote>
+
+    <h2>Our Ticket Packages</h2>
+    <!-- Step 3: Adding ul and li tags for ticket packages -->
+    <ul>
+        <li>General Admission</li>
+        <li>VIP Access</li>
+        <li>Group Discounts</li>
+    </ul>
+
+    <!-- Step 4: Format the speaker's name with a <br> and use their last name as filename -->
+    <h3>
+        Speaker Name <br> March
+    </h3>
+
+    <!-- Step 5: Enclose the name of each speaker with <a> tags -->
+    <a href="speakers/lastname.html">
+        Speaker Name
+    </a>
+
+    <!-- Step 6: Add an img element for each speaker -->
+    <img src="images/lastname75.jpg" alt="Speaker Name Image">
+
+</main>
+
+</body>
+</html>
